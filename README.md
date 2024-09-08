@@ -1,7 +1,7 @@
  # AWS Lambda Deployment with GitHub Actions (CI/CD Pipeline)
 
 This project demonstrates the deployment of an AWS Lambda function using GitHub Actions as part of a CI/CD workflow. The setup includes the use of GitHub Secrets for secure credential management and automates key tasks such as installing dependencies, packaging the Lambda function, and deploying it to AWS.
-
+  
 <br>
 
 ## Architecture Overview
