@@ -1,6 +1,6 @@
  # AWS Lambda Deployment with GitHub Actions (CI/CD Pipeline)
 
-This project demonstrates the deployment of an AWS Lambda function using GitHub Actions as part of a CI/CD workflow. The goal is to automate the deployment of a Python Lambda function whenever a push event occurs in the main branch, specifically in the lambda/ directory. The setup includes the use of GitHub Secrets for secure credential management and automates key tasks such as installing dependencies, packaging the Lambda function, and deploying it to AWS.
+This project demonstrates the deployment of an AWS Lambda function using GitHub Actions as part of a CI/CD workflow. The setup includes the use of GitHub Secrets for secure credential management and automates key tasks such as installing dependencies, packaging the Lambda function, and deploying it to AWS.
 
 <br>
 
@@ -127,8 +127,10 @@ This ensures that deployments are only triggered when files inside the lambda/ f
 <br>
 
 ## Conclusion
-This project highlights the integration of GitHub Actions with AWS to create a seamless CI/CD pipeline for deploying Lambda functions. By automating the deployment process, you ensure consistency, speed, and reliability in pushing updates to your AWS infrastructure.
 
+This project showcases how to integrate GitHub Actions with AWS Lambda to automate the deployment process. 
+By using CI/CD pipelines, we ensure that our AWS Lambda function is always up to date with the latest code pushed to the repository. 
+This removes the need for manual updates via the AWS Console and guarantees consistency across environments.
 
 
 
