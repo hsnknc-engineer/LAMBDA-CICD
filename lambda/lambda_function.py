@@ -1,8 +1,7 @@
 import json
 
 def lambda_handler(event, context):
-    # Beispieländerung für den Test
     return {
         'statusCode': 200,
-        'body': json.dumps('HI, I would like update LAMBDA')
+        'body': json.dumps('Hello from our CICD github actions workflow vscode')
     }
